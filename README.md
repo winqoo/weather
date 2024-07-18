@@ -1,3 +1,4 @@
+
 # Weather App
 
 A simple Flutter application to look up the weather for any location. This project demonstrates the use of Flutter with the Cubit state management pattern.
@@ -32,7 +33,7 @@ A simple Flutter application to look up the weather for any location. This proje
 
 ### Running the Application
 
-1**Run the application:**
+1. **Run the application:**
     ```bash
     flutter run
     ```
@@ -41,15 +42,18 @@ A simple Flutter application to look up the weather for any location. This proje
 
 This project includes unit tests for the WeatherCubit. To run the tests, use the following command:
 
-```bash
-flutter test
-```
+    ```bash
+    flutter test
+    ```
 
 ### Project Structure
-lib/
-    features/weather/
-        services/weather_service.dart
-        cubit/weather_cubit.dart
-              weather_state.dart
-        screens/weather_screen.dart
-main.dart
+
+    lib/
+        features/weather/
+            services/weather_service.dart
+            cubit/
+                weather_cubit.dart
+                weather_state.dart
+            screens/
+                weather_screen.dart
+        main.dart
